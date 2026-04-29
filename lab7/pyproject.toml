@@ -1,0 +1,18 @@
+[project]
+name = "lab7"
+version = "0.1.0"
+description = "AI Agents Project"
+authors = [{name = "smykdianaa", email = "dsmyk2023@itcollege.lviv.ua"}]
+requires-python = ">=3.13,<4.0.0"
+
+dependencies = [
+    "google-adk",
+    "python-dotenv"
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
